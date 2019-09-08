@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Auth } from '../auth';
+import { User } from '../user';
 import { AuthService } from '../auth.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { AuthService } from '../auth.service';
 })
 export class RegisterComponent implements OnInit {
 
-  registerUserData: Auth = new Auth();
+  registerUserData: User = new User();
 
   constructor(private _auth: AuthService) { }
 
