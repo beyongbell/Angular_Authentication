@@ -10,11 +10,11 @@
                 <form action="" class="form">
                     <div class="form-group">
                         <label for="email"> Email </label>
-                        <input [(ngModel)]="registerUser.email" name="email" type="text" class="form-control rounded-0" required>
+                        <input [(ngModel)]="registerUserData.email" name="email" type="text" class="form-control rounded-0" required>
                     </div>
                     <div class="form-group">
                         <label for="passsword"> Password </label>
-                        <input [(ngModel)]="registerUser.password" name="password" type="password" class="form-control rounded-0" required>
+                        <input [(ngModel)]="registerUserData.password" name="password" type="password" class="form-control rounded-0" required>
                     </div>
                    <button (click)="register()" type="button" class="btn btn-primary float-right"> Register </button>
                 </form>
